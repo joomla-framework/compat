@@ -36,20 +36,18 @@ $encoded = json_encode($obj->jsonSerialize());
 
 ## Installation via Composer
 
-Add `"joomla/compat": "dev-master"` to the require block in your composer.json, make sure you have `"minimum-stability": "dev"` and then run `composer install`.
+Add `"joomla/compat": "~1.0"` to the require block in your composer.json and then run `composer install`.
 
 ```json
 {
 	"require": {
-		"joomla/compat": "dev-master"
-	},
-	"minimum-stability": "dev"
+		"joomla/compat": "~1.0"
+	}
 }
 ```
 
 Alternatively, you can simply run the following from the command line:
 
 ```sh
-composer init --stability="dev"
-composer require joomla/compat "dev-master"
+composer require joomla/compat "~1.0"
 ```
