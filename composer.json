@@ -3,13 +3,12 @@
     "type": "joomla-package",
     "description": "Joomla Compat Package",
     "keywords": ["joomla", "framework", "compat"],
-    "homepage": "https://github.com/joomla/joomla-framework-compat",
+    "homepage": "https://github.com/joomla-framework/compat",
     "license": "GPL-2.0+",
     "require": {
         "php": ">=5.3.10"
     },
-    "target-dir": "Joomla/Compat",
     "autoload": {
-     	"classmap": ["JsonSerializable.php"]
+     	"classmap": ["src/JsonSerializable.php"]
     }
 }
