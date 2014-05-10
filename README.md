@@ -20,7 +20,7 @@ class MyClass implements \JsonSerializable
 
 	public function __construct(array $data)
 	{
-		$this->data = $dasta;
+		$this->data = $data;
 	}
 
 	public function jsonSerialize()
