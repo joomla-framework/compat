@@ -38,7 +38,7 @@ class CallbackFilterIterator extends \FilterIterator
 	 *
 	 * @throws  InvalidArgumentException
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since   __DEPLOY_VERSION__
 	 */
 	public function __construct(\Iterator $iterator, $callback)
 	{
@@ -56,11 +56,11 @@ class CallbackFilterIterator extends \FilterIterator
 	 * This method calls the callback with the current value, current key and the inner iterator.
 	 * The callback is expected to return TRUE if the current item is to be accepted, or FALSE otherwise.
 	 *
-	 * @link http://www.php.net/manual/en/callbackfilteriterator.accept.php
+	 * @link    http://www.php.net/manual/en/callbackfilteriterator.accept.php
 	 *
-	 * @return bool true if the current element is acceptable, otherwise false.
+	 * @return  boolean  True if the current element is acceptable, otherwise false.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since   __DEPLOY_VERSION__
 	 */
 	public function accept()
 	{
