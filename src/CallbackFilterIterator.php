@@ -10,7 +10,7 @@
  * CallbackFilterIterator using the callback to determine which items are accepted or rejected.
  *
  * @link   http://php.net/manual/en/class.callbackfilteriterator.php
- * @since  __DEPLOY_VERSION__
+ * @since  1.2.0
  */
 class CallbackFilterIterator extends \FilterIterator
 {
@@ -19,7 +19,7 @@ class CallbackFilterIterator extends \FilterIterator
 	 *
 	 * @var    callable
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.2.0
 	 */
 	protected $callback = null;
 
@@ -38,7 +38,7 @@ class CallbackFilterIterator extends \FilterIterator
 	 *
 	 * @throws  InvalidArgumentException
 	 *
-	 * @since   __DEPLOY_VERSION__
+	 * @since   1.2.0
 	 */
 	public function __construct(\Iterator $iterator, $callback)
 	{
@@ -60,7 +60,7 @@ class CallbackFilterIterator extends \FilterIterator
 	 *
 	 * @return  boolean  True if the current element is acceptable, otherwise false.
 	 *
-	 * @since   __DEPLOY_VERSION__
+	 * @since   1.2.0
 	 */
 	public function accept()
 	{
