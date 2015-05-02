@@ -1,4 +1,4 @@
-# The Compat Package
+# The Compat Package [![Build Status](https://travis-ci.org/joomla-framework/compat.svg?branch=master)](https://travis-ci.org/joomla-framework/compat)
 
 This is a simple package that contains forward compatibility classes and interfaces that are registered to the global namespace
 
