@@ -19,8 +19,6 @@ matrix:
       group: edge # Until the next major stable image update
   allow_failures:
     - php: hhvm
-    - php: 7.0
-    - php: 7.0
 
 before_script:
   - composer update
