@@ -4,6 +4,10 @@
 
 This is a simple package that contains forward compatibility classes and interfaces that are registered to the global namespace
 
+## Deprecated
+
+The `joomla/compat` package has been deprecated.  No further updates are planned.
+
 ## JsonSerializable
 
 `JsonSerializable` is a PHP 5.4 interface that allows you to specify what data to serialize to JSON when you `json_encode` an object that implements the interface.
