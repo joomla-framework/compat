@@ -6,10 +6,10 @@
     "homepage": "https://github.com/joomla-framework/compat",
     "license": "GPL-2.0-or-later",
     "require": {
-        "php": ">=5.3.10"
+        "php": "^5.3.10|~7.0"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "1.*"
+        "joomla/coding-standards": "~2.0@alpha"
     },
     "autoload": {
      	"classmap": [
