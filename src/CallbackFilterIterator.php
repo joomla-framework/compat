@@ -68,7 +68,7 @@ class CallbackFilterIterator extends \FilterIterator
 			array(
 				$inner->current(),
 				$inner->key(),
-				$inner
+				$inner,
 			)
 		);
 	}
