@@ -20,7 +20,7 @@ class CallbackFilterIterator extends \FilterIterator
 	 * @var    callable
 	 * @since  1.2.0
 	 */
-	protected $callback = null;
+	protected $callback;
 
 	/**
 	 * Creates a filtered iterator using the callback to determine
@@ -40,9 +40,9 @@ class CallbackFilterIterator extends \FilterIterator
 	 */
 	public function __construct(\Iterator $iterator, $callback)
 	{
-		if (!is_callable($callback))
+		if (!\is_callable($callback))
 		{
-			throw new \InvalidArgumentException("Argument 2 of CallbackFilterIterator should be callable.");
+			throw new \InvalidArgumentException('Argument 2 of CallbackFilterIterator should be callable.');
 		}
 
 		$this->callback = $callback;
@@ -63,7 +63,7 @@ class CallbackFilterIterator extends \FilterIterator
 	{
 		$inner = $this->getInnerIterator();
 
-		return call_user_func_array(
+		return \call_user_func_array(
 			$this->callback,
 			array(
 				$inner->current(),
