@@ -1,4 +1,4 @@
-# The Compat Package [![Build Status](https://travis-ci.org/joomla-framework/compat.svg?branch=master)](https://travis-ci.org/joomla-framework/compat)
+# The Compat Package [![Build Status](https://ci.joomla.org/api/badges/joomla-framework/compat/status.svg)](https://ci.joomla.org/joomla-framework/compat)
 
 [![Latest Stable Version](https://poser.pugx.org/joomla/compat/v/stable)](https://packagist.org/packages/joomla/compat) [![Total Downloads](https://poser.pugx.org/joomla/compat/downloads)](https://packagist.org/packages/joomla/compat) [![Latest Unstable Version](https://poser.pugx.org/joomla/compat/v/unstable)](https://packagist.org/packages/joomla/compat) [![License](https://poser.pugx.org/joomla/compat/license)](https://packagist.org/packages/joomla/compat)
 
